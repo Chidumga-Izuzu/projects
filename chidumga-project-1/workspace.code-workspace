@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"eslint.workingDirectories": [
+			{
+				"directory": ".",
+				"mode": "auto"
+			}
+		],
+		"editor.tabSize": 2,
+		"explorer.sortOrder": "filesFirst"
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode",
+		]
+	}
+}

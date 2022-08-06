@@ -1,0 +1,24 @@
+.app { 
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app__left { 
+  padding: 2rem;
+  flex: 0 0 auto;
+}
+
+.app__right {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.result-scroll { 
+  max-height: 10rem;
+  overflow-y: scroll;
+  background-color: #eee;
+  padding: 1.5rem 2rem;
+}
